@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: Hello API
+  version: '1.0'
+servers:
+  - url: http://localhost:5000
+paths:
+  /hello/{name}:
+    get:
+      parameters:
+        - in: path
+          name: name
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A greeting to the name
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string

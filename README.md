@@ -11,4 +11,10 @@ codesignal-my-solutions for practice coding with any other Programming languages
 ```shell
 pipenv --venv
 pipenv shell
+
+#install package with pipenv
+pipenv install package_name
+
+#Generate a requirements.txt from Pipfile.lock. to requirements.txt
+pipenv requirements > requirements.txt
 ```

@@ -2,7 +2,7 @@
 #To define a function that take two integers
 # and return the sum of those two numbers
 def add(a,b):
-return a+b
+    return a+b
 
 #initializing the variables
 num1 = 10

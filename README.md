@@ -1,5 +1,5 @@
-# codesignal-my-solutions
-codesignal-my-solutions for practice coding with any other Programming languages
+# coding_collects
+codesignal code colletcs for practice coding with any other Programming languages
 
 ## Setting up my python version
 
@@ -10,6 +10,7 @@ codesignal-my-solutions for practice coding with any other Programming languages
 
 ```shell
 pipenv --venv
+#Spawns a shell within the virtualenv.
 pipenv shell
 
 #install package with pipenv

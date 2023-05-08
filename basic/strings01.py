@@ -6,6 +6,14 @@
 
 strings = "Hello World!"
 
+for x in strings:
+    print(x)
+
+print("Hello" in strings)
+
+if "World" in strings:
+    print("Yes, 'World' is present.")
+
 print("Original strings:", strings)
 print("Length of strings is:", len(strings))
 print("Character at index 0 in strings:", strings[0])

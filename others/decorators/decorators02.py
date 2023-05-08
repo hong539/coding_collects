@@ -1,5 +1,6 @@
-#concepts for python decorators
-#src: https://youtu.be/FXUUSfJO_J4
+# concepts for python decorators
+# src: https://youtu.be/FXUUSfJO_J4
+# function
 
 import functools
 

@@ -11,8 +11,8 @@ for i in range(7, 98, 2):
     total += pow(i, 2)
 print(total)
 
-#metgod 2
-#with math calculations
+#method 2
+#with Math Calculations by Sum of Squares of n Natural Numbers and sum of Arithmetic sequence
 def sum(n):
     return (n+1)*(4*n**2+44*n+147)//3
 print (sum(45))

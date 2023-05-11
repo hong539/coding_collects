@@ -1,3 +1,4 @@
+// src: https://netzmafia.ee.hm.edu/skripten/unix/linux-daemon-howto.html
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <stdio.h>

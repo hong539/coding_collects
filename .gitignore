@@ -1,3 +1,7 @@
+#folders
+/basic/c/*
+!*.c
+
 # Prerequisites
 *.d
 

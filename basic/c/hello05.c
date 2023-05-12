@@ -8,3 +8,6 @@ int main() {
     printf("H     H A       A\n");
     return 0;
 }
+
+//readable?
+//execution times?

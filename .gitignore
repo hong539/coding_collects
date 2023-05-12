@@ -2,6 +2,7 @@
 /basic/c/*
 !*.c
 !*.h
+!*.md
 
 # Prerequisites
 *.d

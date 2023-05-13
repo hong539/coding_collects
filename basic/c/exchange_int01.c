@@ -1,3 +1,6 @@
+// integer1, integer2 -> 2, 6
+// after exchange integer1, integer2 -> 6, 2
+// C語言無法多重指定
 #include <stdio.h>
 
 int main() {
@@ -7,8 +10,7 @@ int main() {
     printf("Please enter the second interger: ");
     scanf("%d", &integer2);
 
-    integer1 = integer2;
-    integer2 = integer1;
+    (integer1, integer2) = (integer2, integer1);
     
     printf("integer1: %d\n", integer1);
     printf("integer2: %d\n", integer2);

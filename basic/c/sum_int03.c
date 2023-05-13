@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+//runtime?
+// usage of cpu?
+// usage of memory?
 int main() {
     int integer, sum;
     printf("Please enter the first interger: ");

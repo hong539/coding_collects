@@ -10,7 +10,9 @@ int main() {
     printf("Please enter the second interger: ");
     scanf("%d", &integer2);
 
-    (integer1, integer2) = (integer2, integer1);
+    int temp = integer1;
+    integer1 = integer2;
+    integer2 = temp;
     
     printf("integer1: %d\n", integer1);
     printf("integer2: %d\n", integer2);

@@ -8,6 +8,7 @@ int main() {
     scanf("%d", &integer2);
 
     integer1 = integer2;
+    integer2 = integer1;
     
     printf("integer1: %d\n", integer1);
     printf("integer2: %d\n", integer2);

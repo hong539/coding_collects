@@ -4,8 +4,9 @@ def solution(matrix):
     sum = 0
     #Sum all values in nested list
     #And add some if condition to clean the value under 0
+    #Math:Permutation, Combination
     for i in matrix:
-        for j in i:
+        for j in i:            
             sum = sum + j
     return sum
 

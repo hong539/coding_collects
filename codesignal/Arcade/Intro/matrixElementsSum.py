@@ -1,14 +1,11 @@
-def solution(matrix):
-    # return len(matrix)
+def solution(matrix):    
     i = 0
     j = 0
     sum = 0
     for i in matrix:
-        print(type(i))
-        # print(i)
         for j in i:
-            print(type(j))
-            # print(j)
+            sum = sum + j
+    return sum
 
 if __name__ == "__main__":
     matrix = [[0, 1, 1, 2], 

@@ -3,6 +3,7 @@ def solution(matrix):
     j = 0
     sum = 0
     #Sum all values in nested list
+    #tips: https://docs.python.org/3.8/tutorial/datastructures.html#nested-list-comprehensions
     #And add some if condition to clean the value under 0
     #Math:Permutation, Combination
     for i in matrix:

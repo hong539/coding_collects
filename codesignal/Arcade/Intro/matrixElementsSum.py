@@ -1,14 +1,25 @@
-def solution(matrix):    
+#Sum all values in nested list
+#tips: https://docs.python.org/3.8/tutorial/datastructures.html#nested-list-comprehensions
+#And add some if condition to clean the value under 0
+#Math:Permutation, Combination
+
+def solution(matrix: list) -> int:
+    """_summary_
+
+    Args:
+        matrix (list): input list
+    """
     i = 0
     j = 0
     sum = 0
-    #Sum all values in nested list
-    #tips: https://docs.python.org/3.8/tutorial/datastructures.html#nested-list-comprehensions
-    #And add some if condition to clean the value under 0
-    #Math:Permutation, Combination
+    # print(matrix)
     for i in matrix:
-        for j in i:            
-            sum = sum + j
+        # print(i)
+        for j in i:
+            if j != 0:
+                sum = sum + j
+            else:
+                break
     return sum
 
 if __name__ == "__main__":

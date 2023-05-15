@@ -1,9 +1,12 @@
-#Sum all values in nested list
-#tips: https://docs.python.org/3.8/tutorial/datastructures.html#nested-list-comprehensions
+#Sum all values in nested list#tips: https://docs.python.org/3.8/tutorial/datastructures.html#nested-list-comprehensions
 #And add some if condition to clean the value under 0
-#Math:Permutation, Combination
+#tips: https://docs.python.org/3.8/tutorial/datastructures.html#nested-list-comprehensions
+#tools: https://docs.python.org/3.8/library/pdb.html#module-pdb
+# python3 -m pdb matrixElementsSum.py
+# import pdb
+#zip(): https://www.w3schools.com/python/ref_func_zip.asp
 
-def solution(matrix: list) -> int:
+def solution(matrix: list) -> int:    
     """_summary_
 
     Args:
@@ -12,14 +15,18 @@ def solution(matrix: list) -> int:
     i = 0
     j = 0
     sum = 0
-    # print(matrix)
-    for i in matrix:
+    unzip = zip(*matrix)
+    # print(unzip)
+    # print(list(unzip))
+    for i in unzip:        
         # print(i)
         for j in i:
-            if j != 0:
-                sum = sum + j
-            else:
+            # print(j)
+            if j == 0:                
                 break
+            else:                
+                # pdb.set_trace()                
+                sum = sum + j    
     return sum
 
 if __name__ == "__main__":

@@ -5,6 +5,7 @@
 # python3 -m pdb matrixElementsSum.py
 # import pdb
 #zip(): https://www.w3schools.com/python/ref_func_zip.asp
+#math: matrix tranpose
 
 def solution(matrix: list) -> int:    
     """_summary_

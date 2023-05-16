@@ -4,12 +4,17 @@ def solution(inputArray:list) -> list:
     #convert str to int
     #TypeError: can only concatenate str (not "int") to str
     #ValueError: invalid literal for int() with base 10: 'aba'
-    result = []    
+    result = []
+    # temp = len(max(inputArray, key=len))
+    # # print(temp)
+    # for l in inputArray:
+    #     if len(l) == temp:
+    #         result.append(l)
     for i in range(0, len(inputArray)-1):
         item1 = inputArray[i]
         item2 = inputArray[i+1]
         
-        if len(item1) >= len(item2):
+        if len(item1) == len(item2):
             result.append(item1)
     
     return result

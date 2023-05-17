@@ -34,3 +34,8 @@ pipenv install package_name
 #Generate a requirements.txt from Pipfile.lock. to requirements.txt
 pipenv requirements > requirements.txt
 ```
+
+## many others
+
+* kotlin
+    * map/reduce/filter

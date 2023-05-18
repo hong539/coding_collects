@@ -3,21 +3,7 @@ codesignal code colletcs for practice coding with any other Programming language
 
 ## Setting up dev_enviroment on Linux
 
-* C coding environment
-    * [prepare c dev_environment](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/c)
-
-* C++ coding environment
-    * [prepare c++ dev_environment](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/c%2B%2B)
-
-* Python coding environment
-    * [prepare python dev_environment](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/python)
-    * python version >= 3.8
-
-* Javascript coding environment
-    * [prepare javascript dev_environment](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/javascript)
-
-* Golang coding environment
-    * [prepare Golang dev_environment](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/go)
+* [programing_languages](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages)
 
 ## Start coding
 

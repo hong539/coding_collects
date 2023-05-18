@@ -21,6 +21,7 @@ int main(int argc, char const *argv[])
     scanf("%d", &num2);
     printf("Please enter the third integer: ");
     scanf("%d", &num3);
+    // 3. -> double
     double average = (num1 + num2 +num3) / 3.;
     printf("Average: %f\n", average);
     return 0;

@@ -37,6 +37,7 @@ def solution():
         print(address)
 
 solution()
+# lexicographical order?
 # if setting BASE = '.'
 # then run python analyzingIpAddresses.py
 # out put

@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 markdown = "*"
 connexion = "*"
+qrcode = "*"
 
 [dev-packages]
 

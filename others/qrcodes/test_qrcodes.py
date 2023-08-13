@@ -1,4 +1,4 @@
 import qrcode
-img = qrcode.make('https://www.debian.org/download')
+img = qrcode.make('https://genshin.hoyoverse.com/zh-tw/')
 type(img)  # qrcode.image.pil.PilImage
-img.save("some_file.png")
+img.save("genshin_start.png")

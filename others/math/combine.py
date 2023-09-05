@@ -1,4 +1,5 @@
 #For Plying Path of Exile and its Jewels
+#Src: https://maxroll.gg/poe/build-guides/explosive-arrow-ballista-elementalist/gear-progression
 import itertools
 
 mods_choices = ["Increased Attack Speed with Bows",

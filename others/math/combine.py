@@ -1,5 +1,6 @@
 #For Plying Path of Exile and its Jewels
 import itertools
+
 mods_choices = ["Increased Attack Speed with Bows",
                 "Increased Maximum Life",
                 "Increased Burning Damage",
@@ -10,8 +11,10 @@ mods_choices = ["Increased Attack Speed with Bows",
 
 Jewels = {}
 
+count = 0
 for i in range(2, 4):
     for combination in itertools.combinations(mods_choices, i):
-        Jewels[combination] = None
+        Jewels[count] = combination
+        count += 1
 
 print(Jewels)

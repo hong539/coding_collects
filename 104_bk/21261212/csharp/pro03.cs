@@ -34,3 +34,12 @@ class Sample
 Ans:
 
 */
+
+class Sample
+{
+    public int MyFun(int i)
+    {
+        Console.WriteLine("Welcome to Kway Kernel Team!" );
+        return 0;
+    }
+}

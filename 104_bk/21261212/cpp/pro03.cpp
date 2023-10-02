@@ -28,7 +28,7 @@ Copyright (C) 2021 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-Under My Ubuntu 22.04.3 LTS VM, execute "gcc pro03.cpp -o pro03" to test codes.
+Under My Ubuntu 22.04.3 LTS VM, execute "gcc -o pro03 pro03.cpp" to test codes.
 
 Show me these messages:
 

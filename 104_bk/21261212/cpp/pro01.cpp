@@ -46,7 +46,7 @@ C++17?
 201703L for C++17
 
 test codes with gcc
-gcc pro01.cpp -o pro01
+gcc -o pro01 pro01.cpp 
 */
 
 #include <stdio.h>

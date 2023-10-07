@@ -1,3 +1,4 @@
+use std::fmt;
 // Tuples can be used as function arguments and as return values.
 fn reverse(pair: (i32, bool)) -> (bool, i32) {
     // `let` can be used to bind the members of a tuple to variables.
@@ -57,5 +58,4 @@ fn main() {
     let matrix = Matrix(1.1, 1.2, 2.1, 2.2);
     println!("{:?}", matrix);
     println!("Matrix:\n{}", matrix);
-    println!("Transpose:\n{}", transpose(matrix));
 }

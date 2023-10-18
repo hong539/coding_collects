@@ -4,29 +4,35 @@ def solution(inputString:str)->str:
     # combine temp to result
     # return result
     print("inputString is:", inputString)
+    seen_even = True
     temp = []
-    final = []
+    result = []
     for x in inputString:
-        if x not in ("(", ")"):
-            temp.append(x)
+        # print("for loop here temp is:", temp)
+        if x not in ('(', ')'):
+            temp.append(x)            
         else:
-            continue
-    print(temp)
-    print(temp[::-1])
-    ss = final.extend(temp)
-    print(ss)
-    # return "".join(temp)
-    # return "".join(temp[::-1])    
-    # temp = inputString.strip("(").strip(")")
-    # reverse = temp[::-1]
-    # print(reverse)
-    # return reverse
+            if seen_even:
+                result.extend(temp)
+            else:
+                result.extend(temp[::-1])
+            seen_even = not seen_even
+            temp = []
+
+    if temp:
+        if seen_even:
+            result.extend(temp)            
+        else:
+            result.extend(temp[::-1])            
+    final = ''.join(result)
+    print(final)
+    return final
 
 if __name__ == "__main__":
-    solution("(bar)")
-    solution("foo(bar)baz")
+    # solution("(bar)")
+    # solution("foo(bar)baz")
     # solution("foo(bar)baz(blim)")
-    # solution("foo(bar(baz))blim")
+    solution("foo(bar(baz))blim")
     # solution("")
     # solution("()")
     # solution("(abc)d(efg)")

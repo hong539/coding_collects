@@ -1,4 +1,4 @@
-#!/bin/bash                                                                                                                                                                                     
+#!/bin/bash
 CURL='/usr/bin/curl'
 RVMHTTP="https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer"
 CURLARGS="-f -s -S -k"

@@ -23,10 +23,11 @@ def create_dict_from_env_variable():
 def move_jar_files(target_dict, search_path, destination_path="/tmp"):
     # Ensure the destination directory exists
     os.makedirs(destination_path, exist_ok=True)
-    
+        
     for key in target_dict:
         # Search for files matching "key.jar" in the specified search path
-        search_pattern = os.path.join(search_path, f"{key}.jar")
+        # search_pattern = os.path.join(search_path, f"{key}.jar")
+        search_pattern = "**/" + key + ".jar"
         jar_files = glob.glob(search_pattern)
         
         # Initialize an empty list to store the moved file paths

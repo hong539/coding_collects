@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "coding-collects"
+version = "0.1.0"
+description = "For personal coding practices"
+authors = ["Hong <hong@ubuntu-lab-01>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

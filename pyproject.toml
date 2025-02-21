@@ -1,15 +1,11 @@
-[tool.poetry]
+[project]
 name = "coding-collects"
 version = "0.1.0"
-description = "For personal coding practices"
-authors = ["Hong <hong@ubuntu-lab-01>"]
-license = "MIT"
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "3.10.14"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=8.3.4",
+    "pytest-cache>=1.0",
+    "pytest-subtests>=0.14.1",
+]

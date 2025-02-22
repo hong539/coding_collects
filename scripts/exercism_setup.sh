@@ -15,8 +15,8 @@ mv exercism ~/bin
 [[ ":$PATH:" == *":$HOME/bin:"* || ":$PATH:" == *":~/bin:"* ]] && echo "~/bin is in PATH" || echo "~/bin is not in PATH"
 
 #If the above prints ~/bin is not in PATH let’s add ~/bin to $PATH and reload Bash configuration:
-echo 'export PATH=~/bin:$PATH' >> ~/.bash_profile
-source ~/.bash_profile
+echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
 
 exercism configure --token=<your-api-token>
 exercism configure --workspace=$(pwd)/exercism_workspace
